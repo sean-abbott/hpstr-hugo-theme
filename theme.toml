@@ -1,8 +1,8 @@
-name = "Hpstr"
+name = "qkslvr_hptsr"
 license = "MIT"
-licenselink = "https://github.com/dldx/hpstr-hugo-theme/blob/master/LICENSE.md"
-description = "A Hugo port of the HPSTR theme by Michael Rose (mmistakes)"
-homepage = "https://dldx.github.io/hpstr-hugo-theme/"
+licenselink = "https://github.com/sean-abbott/hpstr-hugo-theme/blob/master/LICENSE.md"
+description = "A personal port of the Hugo port (by Durand D'souza) of the HPSTR theme by Michael Rose (mmistakes)"
+#homepage = "https://dldx.github.io/hpstr-hugo-theme/"
 tags = ["responsive", "blog"]
 features = ["comments", "scss", "menu"]
 
