@@ -3988,6 +3988,27 @@ header .entry-meta {
       max-width: 800px;
       padding: 50px 80px;
       margin: 0 auto 30px auto; } }
+
+#post #oldwp_thread,
+#page #oldwp_thread {
+  margin: 40px 2px 20px 2px;
+  padding: 10px 15px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(187, 187, 187, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 3px; }
+  @media only screen and (min-width: 48em) {
+    #post #oldwp_thread,
+    #page #oldwp_thread {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 20px 30px; } }
+  @media only screen and (min-width: 62.5em) {
+    #post #oldwp_thread,
+    #page #oldwp_thread {
+      max-width: 800px;
+      padding: 50px 80px;
+      margin: 0 auto 30px auto; } }
+
 #post .entry-meta,
 #page .entry-meta {
   margin: 50px 30px 30px;

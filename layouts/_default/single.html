@@ -41,23 +41,11 @@
       </footer>
     </div><!-- /.entry-content -->
     {{ if ne .Params.comments false }}
-      <section id="disqus_thread">
       {{ if isset .Params "wordpress_id" }}
-        {{ $myid := string .Params.wordpress_id }}
-        {{ $mycomments := index $.Site.Data.new_comments.comments $myid }}
-        {{ if $mycomments }}
-          <p>
-          Comments!<br/>
-          {{ range $mycomments }}
-          {{ .comment_date }} -- {{ .comment_author }}<br/>
-          {{ .comment_content }}<br/><br/>
-          {{ end }} <!-- end comment range -->
-          </p>
-      {{ end }} <!-- /#wp_comments_exist_thread -->
+    <section id="oldwp_thread"> {{ partial "oldwp.html" . }}</section>
       {{ else }}
-        {{ partial "disqus.html" . }}
+      <section id="disqus_thread"> {{ partial "disqus.html" . }}</section><!-- /#disqus_thread -->
       {{ end }}<!-- /#wp_comments_thread -->
-      </section><!-- /#disqus_thread -->
     {{ end }}
   </article>
 </div><!-- /#main -->
